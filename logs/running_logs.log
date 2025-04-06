@@ -1,1 +1,17 @@
 [2025-04-07 03:59:04,579: INFO: main: Welcome to my MLOPS project]
+[2025-04-07 04:24:35,606: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-07 04:24:35,607: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-07 04:24:35,607: INFO: common: created directory at: artifacts]
+[2025-04-07 04:24:35,608: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-07 04:24:35,608: INFO: 886113331: Downloading data from https://drive.google.com/file/d/15uNMnR3IoZaQYPoIAHJJeEfgACM5RBH3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-04-07 04:24:43,382: INFO: 886113331: Downloaded data from https://drive.google.com/file/d/15uNMnR3IoZaQYPoIAHJJeEfgACM5RBH3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-04-07 04:37:58,123: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-04-07 04:37:58,124: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-07 04:37:58,124: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-07 04:37:58,124: INFO: common: created directory at: artifacts]
+[2025-04-07 04:37:58,124: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-07 04:37:58,124: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/15uNMnR3IoZaQYPoIAHJJeEfgACM5RBH3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-04-07 04:38:50,637: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/15uNMnR3IoZaQYPoIAHJJeEfgACM5RBH3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-04-07 04:38:51,788: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
