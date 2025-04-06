@@ -1,1 +1,0 @@
-Skin_Cancer_classifier
