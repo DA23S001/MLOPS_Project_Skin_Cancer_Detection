@@ -5,3 +5,15 @@ data_ingestion:
   source_URL: https://drive.google.com/file/d/15uNMnR3IoZaQYPoIAHJJeEfgACM5RBH3/view?usp=sharing
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
+
+
+
+prepare_base_model:
+  root_dir: artifacts/prepare_base_model
+  # ARCH_NAME: efficientnet
+  # base_model_path: artifacts/prepare_base_model/base_model_${ARCH_NAME}.pth
+
+
+training:
+  root_dir: artifacts/training
+

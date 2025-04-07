@@ -15,3 +15,27 @@
 [2025-04-07 04:38:51,788: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2025-04-07 16:58:49,638: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-07 16:58:49,640: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-07 16:58:49,640: INFO: common: created directory at: artifacts]
+[2025-04-07 17:02:19,846: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-07 17:02:19,848: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-07 17:02:19,849: INFO: common: created directory at: artifacts]
+[2025-04-07 17:30:40,534: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-04-07 17:30:40,534: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-07 17:30:40,535: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-07 17:30:40,535: INFO: common: created directory at: artifacts]
+[2025-04-07 17:30:40,535: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-07 17:30:40,535: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/15uNMnR3IoZaQYPoIAHJJeEfgACM5RBH3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-04-07 17:31:06,980: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/15uNMnR3IoZaQYPoIAHJJeEfgACM5RBH3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-04-07 17:31:08,162: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-04-07 17:31:08,162: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-04-07 17:31:08,163: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-07 17:31:08,163: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-07 17:31:08,164: INFO: common: created directory at: artifacts]
+[2025-04-07 17:31:08,164: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-04-07 17:31:08,213: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]

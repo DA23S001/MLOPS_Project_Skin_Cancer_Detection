@@ -1,6 +1,6 @@
 from Skin_Cancer_Classifier.constants import *
 from Skin_Cancer_Classifier.utils.common import read_yaml, create_directories
-from Skin_Cancer_Classifier.entity.config_entity import DataIngestionConfig
+from Skin_Cancer_Classifier.entity.config_entity import (DataIngestionConfig, PrepareBaseModelConfig)
 
 class ConfigurationManager:
     def __init__(
@@ -28,3 +28,25 @@ class ConfigurationManager:
         )
 
         return data_ingestion_config
+    
+
+
+    def get_prepare_base_model_config(self) -> PrepareBaseModelConfig:
+        config = self.config.prepare_base_model
+
+        create_directories([config.root_dir])
+
+        root_dir = Path(config.root_dir)
+        arch_name = self.params.ARCH_NAME
+        base_model_path = root_dir / f"model_{arch_name}.pth"
+
+        prepare_base_model_config = PrepareBaseModelConfig(
+                                root_dir=root_dir,
+                                base_model_path=base_model_path,
+                                pretrained=self.params.PRETRAINED,
+                                params_image_size=self.params.IMAGE_SIZE,
+                                params_learning_rate=self.params.LEARNING_RATE,
+                                params_arch_name = arch_name,
+                                params_classes=self.params.CLASSES)
+        
+        return prepare_base_model_config
